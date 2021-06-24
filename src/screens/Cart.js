@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Button } from "react-native";
 export default (props) => {
 	return (
 		<View style={styles.container}>
+			<Text>Carrinho</Text>
 			<Button
 				title="Voltar para Produtos"
 				onPress={() => {
